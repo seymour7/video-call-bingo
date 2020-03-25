@@ -97,19 +97,6 @@ footer a .icons {
   line-height: 1.35;
   user-select: none;
 }
-/* .bingo-card__item:after {
-  content: "\25CF";
-  position: absolute;
-  top: -80%;
-  left: -4%;
-  color: #ff0000;
-  width: 100%;
-  opacity: 0;
-  transition: 0.1s ease;
-  height: 0;
-  pointer-events: none;
-  font-size: 200px;
-} */
 .bingo-card__item:after {
   content: "";
   position: absolute;
