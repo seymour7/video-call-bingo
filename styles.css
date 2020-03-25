@@ -160,17 +160,18 @@ footer a .icons {
   }
 
   .bingo-card {
-    grid-template-rows: repeat(24, auto);
-    grid-template-columns: auto;
+    /* grid-template-rows: repeat(24, auto); */
+    /* grid-template-columns: auto; */
     margin: 1em;
   }
 
   .bingo-card__item {
-    justify-content: flex-start;
+    /* justify-content: flex-start;
     padding: 15px 15px 15px 40px;
-    text-align: left;
+    text-align: left; */
+    font-size: 11px;
   }
-  .bingo-card__item:after {
+  /* .bingo-card__item:after {
     content: "";
     opacity: 0;
   }
@@ -185,5 +186,5 @@ footer a .icons {
     height: 20px;
     left: 10px;
     border: 2px dashed #f7d75c;
-  }
+  } */
 }
