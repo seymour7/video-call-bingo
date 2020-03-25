@@ -188,3 +188,13 @@ footer a .icons {
     border: 2px dashed #f7d75c;
   } */
 }
+
+
+@media screen and (max-width: 800px) and (min-height: 700px) {
+
+  /* .main-content {
+    max-width: none;
+    margin: 0;
+  } */
+
+}

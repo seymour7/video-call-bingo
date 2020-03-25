@@ -1,34 +1,46 @@
 window.onload = initAll;
 
 var cells = [
+    // People in call
     "Hi, who just joined?",
-    "Can you email that to everyone?",
-    "Uh, _, you're still sharing your screen...",
-    "Sorry guys, I've got to jump to another call",
-    "*sound of someone typing furiously*",
-    "_ you're on mute",
-    "Sorry, I was on mute",
     "Is _ on the call?",
-    "Can everyone go on mute?",
-    "*super loud echo or feedback*",
-    "Sorry, go ahead",
-    "Sorry I'm late",
-    "I'm sorry you cut out there",
-    "Can we take this offline?",
-    "I'll have to get back to you",
+    "Did _ leave the call?",
+    // Screen sharing
     "Can everyone see my screen?",
+    "Uh, _, you're still sharing your screen...",
+    // Noise pollution
+    "*sound of someone typing furiously*",
+    "*super loud echo or feedback*",
     "*crying baby or barking dog*",
-    "I think there's some lag",
+    "*ambulance or fire truck in the background",
+    // Background items
+    "What's that _ behind you?",
+    "*someone shows their cat/dog*",
+    // Mute issues
+    "_ I think you're on mute, we can't hear you",
+    "Sorry, I was on mute",
+    "Can everyone go on mute?",
+    // Quality issues
     "You cut out, can you repeat that?",
-    "I think _ left the call",
-    "Can you post that in the chat?",
-    "Can you guys hear me?",
-    "Is that your _ in the background?",
+    "Sorry, can you hear me now?",
     "Your video is frozen",
-    "*someone touches face*",
     "I disconnected",
+    "I'm going to try re-entering the call",
+    // The leavers
     "I have to leave at _",
-    "_ you go first",
+    "Sorry I have to hop off, you guys keep talking",
+    // Awkward stuff
+    "*small talk while waiting for last person*",
+    "*awkward silence waiting for next person to speak*",
+    // Latency issues
+    "After interrupting each other: Sorry you go first",
+    "I think there's some lag",
+    "Sorry, go ahead",
+    // Misc
+    "Sorry I'm late",
+    "I'll have to get back to you",
+    "Can you post that in the chat/email it to everyone?",
+    "I'll give it a couple more minutes before starting",
 ];
 
 function initAll() {
