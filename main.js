@@ -40,7 +40,8 @@ function newCard() {
     shuffle(cells);
 	for (var i=0; i<24; i++) {
 		setSquare(i);
-	}
+    }
+    document.getElementById("square24").classList.remove("winningBG");
 }
 
 // Shuffles array in place
