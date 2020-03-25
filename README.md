@@ -10,3 +10,8 @@ https://bingo.seymour.co.za/
 ## Contributing
 
 Contributions are very welcome! Feel free to create a pull request if you'd like to contribute.
+
+## Credits
+
+* [CSS Grid: Bingo Card](https://codepen.io/oliviale/pen/OrxWyK) by Olivia Ng on CodePen
+* [Bingo](https://codepen.io/gokemon/pen/XjxdoB) by Michael Gokey on CodePen
