@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700|Nunito|Caveat+Brush);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700|Nunito);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css);
 
 * {
@@ -94,7 +94,7 @@ footer a .icons {
   text-transform: uppercase;
 }
 .bingo-card__item {
-  background: #f9f59e;
+  background: #ffffff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -106,23 +106,24 @@ footer a .icons {
   user-select: none;
 }
 .bingo-card__item:after {
-  content: "-";
+  content: "\25CF";
   position: absolute;
-  top: -28%;
-  left: -30%;
-  color: #fbda7d;
+  top: -80%;
+  left: -4%;
+  color: #ff0000;
   width: 100%;
   opacity: 0;
   transition: 0.1s ease;
   height: 0;
   pointer-events: none;
-  font: 280px/0.5 "Caveat Brush", cursive;
-  text-align: center;
-  transform: rotate(-45deg);
+  font-size: 200px;
 }
-#free:after, .bingo-card__item.active:after {
+.bingo-card__item.active:after {
   height: 100%;
   opacity: 0.7;
+}
+.winningBG.bingo-card__item::after {
+  color: #0F0;
 }
 
 .bingo-card__item {
