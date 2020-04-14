@@ -4,7 +4,7 @@ This is a [Bingo](https://en.wikipedia.org/wiki/Bingo_(American_version)) game t
 
 ## Try It
 
-The code in this repo is currently be served at:<br>
+The code in this repo is currently being served at:<br>
 https://bingo.seymour.co.za/
 
 ## Contributing
